@@ -137,7 +137,7 @@ npm run build
 npx electron-builder --win
 ```
 
-O instalador executável será criado dentro da pasta `dist/` (ex: `Professor Screen Share Setup 1.0.1.exe`).
+O instalador executável será criado dentro da pasta `dist/` (ex: `Professor Screen Share Setup 1.0.2.exe`).
 
 ---
 

@@ -76,7 +76,7 @@ export const AboutModal: React.FC<AboutModalProps> = ({ isOpen, onClose }) => {
                 />
               </div>
               <span className="absolute -bottom-1 -right-1 px-2 py-0.5 rounded-full text-[9px] font-bold bg-indigo-600 text-white border border-indigo-400/50 shadow">
-                v1.0.1
+                v1.0.2
               </span>
             </div>
 

@@ -128,7 +128,7 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ isReady, onFinish })
 
         {/* Developer Attribution & Version */}
         <div className="pt-4 text-[10px] text-slate-500 font-medium flex items-center gap-2">
-          <span>v1.0.1</span>
+          <span>v1.0.2</span>
           <span>•</span>
           <span>Por AlysonDEV</span>
         </div>

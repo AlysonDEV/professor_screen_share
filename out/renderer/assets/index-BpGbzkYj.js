@@ -8944,7 +8944,7 @@ const AboutModal = ({ isOpen, onClose }) => {
               className: "w-full h-full object-cover rounded-xl"
             }
           ) }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "absolute -bottom-1 -right-1 px-2 py-0.5 rounded-full text-[9px] font-bold bg-indigo-600 text-white border border-indigo-400/50 shadow", children: "v1.0.1" })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "absolute -bottom-1 -right-1 px-2 py-0.5 rounded-full text-[9px] font-bold bg-indigo-600 text-white border border-indigo-400/50 shadow", children: "v1.0.2" })
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-base font-bold text-slate-100", children: "Professor Screen Share" }),
@@ -9118,7 +9118,7 @@ const SplashScreen = ({ isReady, onFinish }) => {
             ] })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "pt-4 text-[10px] text-slate-500 font-medium flex items-center gap-2", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "v1.0.1" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "v1.0.2" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "•" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Por AlysonDEV" })
           ] })
