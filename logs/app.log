@@ -572,3 +572,30 @@
 [2026-09-26T09:11:42.806Z] [INFO] Capturadas 8 fontes de vídeo (2 telas, 6 janelas)
 [2026-09-26T09:11:42.825Z] [INFO] Fonte de vídeo selecionada: screen:0:0
 [2026-09-26T09:11:42.825Z] [INFO] Fonte de vídeo selecionada: screen:0:0
+[2026-09-26T10:31:22.500Z] [INFO] Servidor Screen Shared ativo em http://169.254.83.107:9876/screen_shared
+[2026-09-26T22:07:46.133Z] [INFO] Servidor Screen Shared ativo em http://169.254.83.107:9876/screen_shared
+[2026-09-26T22:08:38.362Z] [INFO] Servidor Screen Shared ativo em http://169.254.83.107:3000/screen_shared
+[2026-09-26T22:08:40.313Z] [INFO] Detectados 2 monitor(es) físicos
+[2026-09-26T22:08:40.316Z] [INFO] Detectados 2 monitor(es) físicos
+[2026-09-26T22:08:40.326Z] [INFO] Capturadas 2 fontes de vídeo (2 telas, 0 janelas)
+[2026-09-26T22:08:40.327Z] [INFO] Capturadas 2 fontes de vídeo (2 telas, 0 janelas)
+[2026-09-26T22:08:40.340Z] [INFO] Fonte de vídeo selecionada: screen:0:0
+[2026-09-26T22:08:40.341Z] [INFO] Fonte de vídeo selecionada: screen:0:0
+[2026-09-26T22:24:59.925Z] [WARN] Porta 3000 já em uso. Tentando porta 3001...
+[2026-09-26T22:24:59.932Z] [INFO] Servidor Screen Shared ativo em http://169.254.83.107:3001/screen_shared
+[2026-09-26T22:25:06.219Z] [INFO] Detectados 2 monitor(es) físicos
+[2026-09-26T22:25:06.221Z] [INFO] Detectados 2 monitor(es) físicos
+[2026-09-26T22:25:06.518Z] [INFO] Capturadas 7 fontes de vídeo (2 telas, 5 janelas)
+[2026-09-26T22:25:06.550Z] [INFO] Capturadas 7 fontes de vídeo (2 telas, 5 janelas)
+[2026-09-26T22:25:06.569Z] [INFO] Fonte de vídeo selecionada: screen:0:0
+[2026-09-26T22:25:06.570Z] [INFO] Fonte de vídeo selecionada: screen:0:0
+[2026-09-26T22:26:13.433Z] [INFO] Capturadas 7 fontes de vídeo (2 telas, 5 janelas)
+[2026-09-26T22:30:23.253Z] [INFO] Servidor Screen Shared ativo em http://169.254.83.107:9876/screen_shared
+[2026-09-26T22:32:37.962Z] [WARN] Porta 3000 já em uso. Tentando porta 3001...
+[2026-09-26T22:32:37.970Z] [INFO] Servidor Screen Shared ativo em http://169.254.83.107:3001/screen_shared
+[2026-09-26T22:32:44.270Z] [INFO] Detectados 2 monitor(es) físicos
+[2026-09-26T22:32:44.272Z] [INFO] Detectados 2 monitor(es) físicos
+[2026-09-26T22:32:44.549Z] [INFO] Capturadas 7 fontes de vídeo (2 telas, 5 janelas)
+[2026-09-26T22:32:44.565Z] [INFO] Capturadas 7 fontes de vídeo (2 telas, 5 janelas)
+[2026-09-26T22:32:44.584Z] [INFO] Fonte de vídeo selecionada: screen:0:0
+[2026-09-26T22:32:44.585Z] [INFO] Fonte de vídeo selecionada: screen:0:0
