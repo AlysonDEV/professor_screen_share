@@ -1,1 +1,16 @@
-node_modules
+# Dependências
+node_modules/
+
+# Empacotamento e Distribuição (Electron Builder)
+dist/
+dist/*.exe
+dist/win-unpacked/
+
+# Logs locais
+logs/*.log
+*.log
+
+# Caches e arquivos temporários de compilação
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
