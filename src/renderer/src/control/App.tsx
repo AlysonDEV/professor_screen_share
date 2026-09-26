@@ -6,7 +6,9 @@ import { CropManager } from './components/CropManager'
 import { WebViewersPanel } from './components/WebViewersPanel'
 import { AnnotationToolbar } from './components/AnnotationToolbar'
 import { LogViewerModal } from './components/LogViewerModal'
-import { FileText } from 'lucide-react'
+import { AboutModal } from './components/AboutModal'
+import { SplashScreen } from './components/SplashScreen'
+import { FileText, Info } from 'lucide-react'
 import type { CropRegion, AnnotationTool } from '@shared/types'
 
 export const ControlApp: React.FC = () => {
@@ -16,6 +18,8 @@ export const ControlApp: React.FC = () => {
   const [currentColor, setCurrentColor] = useState<string>('#ef4444')
   const [strokeWidth, setStrokeWidth] = useState<number>(5)
   const [isLogModalOpen, setIsLogModalOpen] = useState(false)
+  const [isAboutModalOpen, setIsAboutModalOpen] = useState(false)
+  const [isAppReady, setIsAppReady] = useState(false)
 
   useEffect(() => {
     // Forward window errors to logger
@@ -51,7 +55,13 @@ export const ControlApp: React.FC = () => {
       setSelectedSourceId(sourceId)
     })
 
+    // Simulated initial resource readiness check
+    const readyTimer = setTimeout(() => {
+      setIsAppReady(true)
+    }, 1300)
+
     return (): void => {
+      clearTimeout(readyTimer)
       window.removeEventListener('error', handleGlobalError)
       window.removeEventListener('unhandledrejection', handleRejection)
       unsubCrop?.()
@@ -108,7 +118,10 @@ export const ControlApp: React.FC = () => {
       <div className="absolute -bottom-20 left-1/3 w-64 h-64 bg-emerald-600/10 rounded-full blur-3xl pointer-events-none" />
 
       {/* Unified Custom Titlebar Header */}
-      <Header isStreaming={Boolean(selectedSourceId)} />
+      <Header
+        isStreaming={Boolean(selectedSourceId)}
+        onOpenAbout={() => setIsAboutModalOpen(true)}
+      />
 
       {/* Main Content Dashboard */}
       <main className="relative z-10 flex-1 overflow-y-auto p-3 space-y-2.5">
@@ -139,17 +152,30 @@ export const ControlApp: React.FC = () => {
         />
       </main>
 
-      {/* Footer Info & Log Button */}
+      {/* Footer Info & Modal Triggers */}
       <footer className="relative z-10 px-3 py-2 bg-[#0b0f19]/90 backdrop-blur-sm border-t border-slate-800/80 text-[10px] text-slate-400 flex items-center justify-between">
-        <button
-          type="button"
-          onClick={() => setIsLogModalOpen(true)}
-          className="flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-slate-800/80 hover:bg-slate-700/80 text-slate-300 hover:text-white transition-all border border-slate-700/60 active:scale-95 shadow-sm"
-          title="Ver histórico de logs e erros (logs/app.log)"
-        >
-          <FileText className="w-3 h-3 text-indigo-400" />
-          <span>Ver Logs</span>
-        </button>
+        <div className="flex items-center gap-1.5">
+          <button
+            type="button"
+            onClick={() => setIsLogModalOpen(true)}
+            className="flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-slate-800/80 hover:bg-slate-700/80 text-slate-300 hover:text-white transition-all border border-slate-700/60 active:scale-95 shadow-sm"
+            title="Ver histórico de logs e erros (logs/app.log)"
+          >
+            <FileText className="w-3 h-3 text-indigo-400" />
+            <span>Logs</span>
+          </button>
+
+          <button
+            type="button"
+            onClick={() => setIsAboutModalOpen(true)}
+            className="flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-slate-800/80 hover:bg-slate-700/80 text-slate-300 hover:text-white transition-all border border-slate-700/60 active:scale-95 shadow-sm"
+            title="Sobre o Desenvolvedor e Repositório GitHub"
+          >
+            <Info className="w-3 h-3 text-indigo-400" />
+            <span>Sobre</span>
+          </button>
+        </div>
+
         <div className="flex items-center gap-3 text-slate-500 font-mono text-[10px]">
           <span>F11: Tela Cheia</span>
           <span>•</span>
@@ -161,6 +187,14 @@ export const ControlApp: React.FC = () => {
         isOpen={isLogModalOpen}
         onClose={() => setIsLogModalOpen(false)}
       />
+
+      <AboutModal
+        isOpen={isAboutModalOpen}
+        onClose={() => setIsAboutModalOpen(false)}
+      />
+
+      {/* Initial Startup Splash Screen */}
+      <SplashScreen isReady={isAppReady} />
     </div>
   )
 }

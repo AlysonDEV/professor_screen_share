@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react'
-import { Sparkles, Minus, Square, Copy, X } from 'lucide-react'
+import { Sparkles, Minus, Square, Copy, X, HelpCircle } from 'lucide-react'
 import appIcon from '@renderer/assets/icon.png'
 
 interface HeaderProps {
   isStreaming?: boolean
+  onOpenAbout?: () => void
 }
 
-export const Header: React.FC<HeaderProps> = ({ isStreaming = false }) => {
+export const Header: React.FC<HeaderProps> = ({ isStreaming = false, onOpenAbout }) => {
   const [isMaximized, setIsMaximized] = useState(false)
 
   useEffect(() => {
@@ -83,6 +84,20 @@ export const Header: React.FC<HeaderProps> = ({ isStreaming = false }) => {
             <span>{isStreaming ? 'Ativo' : 'Pronto'}</span>
           </div>
         </div>
+
+        {/* About / Info Button */}
+        {onOpenAbout && (
+          <div className="app-no-drag">
+            <button
+              type="button"
+              onClick={onOpenAbout}
+              className="w-7 h-7 rounded-md flex items-center justify-center text-slate-400 hover:text-indigo-300 hover:bg-slate-800/80 active:scale-90 transition-all duration-150"
+              title="Sobre o Desenvolvedor & Repositório GitHub"
+            >
+              <HelpCircle className="w-3.5 h-3.5" />
+            </button>
+          </div>
+        )}
 
         {/* Divider */}
         <div className="w-px h-3.5 bg-slate-800 shrink-0 mx-0.5" />

@@ -143,7 +143,9 @@ const IPC_CHANNELS = {
   WINDOW_MINIMIZE: "window-minimize",
   WINDOW_MAXIMIZE: "window-maximize",
   WINDOW_CLOSE: "window-close",
-  WINDOW_IS_MAXIMIZED: "window-is-maximized"
+  WINDOW_IS_MAXIMIZED: "window-is-maximized",
+  // System & External Links
+  OPEN_EXTERNAL: "open-external"
 };
 function getPreloadPath() {
   const mjsPath = join(__dirname, "../preload/index.mjs");
@@ -1616,6 +1618,11 @@ function setupIPC() {
   ipcMain.handle(IPC_CHANNELS.WINDOW_IS_MAXIMIZED, (event) => {
     const win = BrowserWindow.fromWebContents(event.sender);
     return win?.isMaximized() ?? false;
+  });
+  ipcMain.on(IPC_CHANNELS.OPEN_EXTERNAL, (_event, url) => {
+    if (typeof url === "string" && (url.startsWith("https://") || url.startsWith("http://"))) {
+      shell.openExternal(url);
+    }
   });
 }
 const isDev = is.dev || Boolean(process.env["ELECTRON_RENDERER_URL"]);

@@ -7274,7 +7274,7 @@ function createLucideIcon(iconDataOrName, iconNode = [], aliases = []) {
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconData$z = {
+const __iconData$D = {
   name: "app-window",
   size: 24,
   node: [
@@ -7284,15 +7284,15 @@ const __iconData$z = {
     ["path", { d: "M6 4v4", key: "1svtjw" }]
   ]
 };
-__iconData$z.node;
-const AppWindow = createLucideIcon(__iconData$z);
+__iconData$D.node;
+const AppWindow = createLucideIcon(__iconData$D);
 /**
  * @license lucide-react v1.48.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconData$y = {
+const __iconData$C = {
   name: "arrow-up-right",
   size: 24,
   node: [
@@ -7300,15 +7300,37 @@ const __iconData$y = {
     ["path", { d: "M7 17 17 7", key: "1vkiza" }]
   ]
 };
-__iconData$y.node;
-const ArrowUpRight = createLucideIcon(__iconData$y);
+__iconData$C.node;
+const ArrowUpRight = createLucideIcon(__iconData$C);
 /**
  * @license lucide-react v1.48.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconData$x = {
+const __iconData$B = {
+  name: "award",
+  size: 24,
+  node: [
+    [
+      "path",
+      {
+        d: "m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526",
+        key: "1yiouv"
+      }
+    ],
+    ["circle", { cx: "12", cy: "8", r: "6", key: "1vp47v" }]
+  ]
+};
+__iconData$B.node;
+const Award = createLucideIcon(__iconData$B);
+/**
+ * @license lucide-react v1.48.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconData$A = {
   name: "check-check",
   size: 24,
   node: [
@@ -7316,8 +7338,47 @@ const __iconData$x = {
     ["path", { d: "m22 10-7.5 7.5L13 16", key: "ke71qq" }]
   ]
 };
+__iconData$A.node;
+const CheckCheck = createLucideIcon(__iconData$A);
+/**
+ * @license lucide-react v1.48.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconData$z = {
+  name: "check",
+  size: 24,
+  node: [["path", { d: "M20 6 9 17l-5-5", key: "1gmf2c" }]]
+};
+__iconData$z.node;
+const Check = createLucideIcon(__iconData$z);
+/**
+ * @license lucide-react v1.48.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconData$y = {
+  name: "chevron-down",
+  size: 24,
+  node: [["path", { d: "m6 9 6 6 6-6", key: "qrunsl" }]]
+};
+__iconData$y.node;
+const ChevronDown = createLucideIcon(__iconData$y);
+/**
+ * @license lucide-react v1.48.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconData$x = {
+  name: "chevron-up",
+  size: 24,
+  node: [["path", { d: "m18 15-6-6-6 6", key: "153udz" }]]
+};
 __iconData$x.node;
-const CheckCheck = createLucideIcon(__iconData$x);
+const ChevronUp = createLucideIcon(__iconData$x);
 /**
  * @license lucide-react v1.48.0 - ISC
  *
@@ -7325,12 +7386,17 @@ const CheckCheck = createLucideIcon(__iconData$x);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconData$w = {
-  name: "check",
+  name: "circle-question-mark",
   size: 24,
-  node: [["path", { d: "M20 6 9 17l-5-5", key: "1gmf2c" }]]
+  node: [
+    ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+    ["path", { d: "M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3", key: "1u773s" }],
+    ["path", { d: "M12 17h.01", key: "p32p05" }]
+  ],
+  aliases: ["help-circle", "circle-help"]
 };
 __iconData$w.node;
-const Check = createLucideIcon(__iconData$w);
+const CircleQuestionMark = createLucideIcon(__iconData$w);
 /**
  * @license lucide-react v1.48.0 - ISC
  *
@@ -7338,12 +7404,12 @@ const Check = createLucideIcon(__iconData$w);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconData$v = {
-  name: "chevron-down",
+  name: "circle",
   size: 24,
-  node: [["path", { d: "m6 9 6 6 6-6", key: "qrunsl" }]]
+  node: [["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }]]
 };
 __iconData$v.node;
-const ChevronDown = createLucideIcon(__iconData$v);
+const Circle = createLucideIcon(__iconData$v);
 /**
  * @license lucide-react v1.48.0 - ISC
  *
@@ -7351,32 +7417,6 @@ const ChevronDown = createLucideIcon(__iconData$v);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconData$u = {
-  name: "chevron-up",
-  size: 24,
-  node: [["path", { d: "m18 15-6-6-6 6", key: "153udz" }]]
-};
-__iconData$u.node;
-const ChevronUp = createLucideIcon(__iconData$u);
-/**
- * @license lucide-react v1.48.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconData$t = {
-  name: "circle",
-  size: 24,
-  node: [["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }]]
-};
-__iconData$t.node;
-const Circle = createLucideIcon(__iconData$t);
-/**
- * @license lucide-react v1.48.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconData$s = {
   name: "clock",
   size: 24,
   node: [
@@ -7384,15 +7424,33 @@ const __iconData$s = {
     ["path", { d: "M12 6v6l4 2", key: "mmk7yg" }]
   ]
 };
-__iconData$s.node;
-const Clock = createLucideIcon(__iconData$s);
+__iconData$u.node;
+const Clock = createLucideIcon(__iconData$u);
 /**
  * @license lucide-react v1.48.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconData$r = {
+const __iconData$t = {
+  name: "code-xml",
+  size: 24,
+  node: [
+    ["path", { d: "m18 16 4-4-4-4", key: "1inbqp" }],
+    ["path", { d: "m6 8-4 4 4 4", key: "15zrgr" }],
+    ["path", { d: "m14.5 4-5 16", key: "e7oirm" }]
+  ],
+  aliases: ["code-2"]
+};
+__iconData$t.node;
+const CodeXml = createLucideIcon(__iconData$t);
+/**
+ * @license lucide-react v1.48.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconData$s = {
   name: "copy",
   size: 24,
   node: [
@@ -7400,15 +7458,15 @@ const __iconData$r = {
     ["path", { d: "M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2", key: "zix9uf" }]
   ]
 };
-__iconData$r.node;
-const Copy = createLucideIcon(__iconData$r);
+__iconData$s.node;
+const Copy = createLucideIcon(__iconData$s);
 /**
  * @license lucide-react v1.48.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconData$q = {
+const __iconData$r = {
   name: "crosshair",
   size: 24,
   node: [
@@ -7419,15 +7477,15 @@ const __iconData$q = {
     ["line", { x1: "12", x2: "12", y1: "22", y2: "18", key: "15g9kq" }]
   ]
 };
-__iconData$q.node;
-const Crosshair = createLucideIcon(__iconData$q);
+__iconData$r.node;
+const Crosshair = createLucideIcon(__iconData$r);
 /**
  * @license lucide-react v1.48.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconData$p = {
+const __iconData$q = {
   name: "external-link",
   size: 24,
   node: [
@@ -7436,15 +7494,15 @@ const __iconData$p = {
     ["path", { d: "M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6", key: "a6xqqp" }]
   ]
 };
-__iconData$p.node;
-const ExternalLink = createLucideIcon(__iconData$p);
+__iconData$q.node;
+const ExternalLink = createLucideIcon(__iconData$q);
 /**
  * @license lucide-react v1.48.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconData$o = {
+const __iconData$p = {
   name: "file-text",
   size: 24,
   node: [
@@ -7461,15 +7519,15 @@ const __iconData$o = {
     ["path", { d: "M16 17H8", key: "z1uh3a" }]
   ]
 };
-__iconData$o.node;
-const FileText = createLucideIcon(__iconData$o);
+__iconData$p.node;
+const FileText = createLucideIcon(__iconData$p);
 /**
  * @license lucide-react v1.48.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconData$n = {
+const __iconData$o = {
   name: "globe",
   size: 24,
   node: [
@@ -7478,15 +7536,15 @@ const __iconData$n = {
     ["path", { d: "M2 12h20", key: "9i4pu4" }]
   ]
 };
-__iconData$n.node;
-const Globe = createLucideIcon(__iconData$n);
+__iconData$o.node;
+const Globe = createLucideIcon(__iconData$o);
 /**
  * @license lucide-react v1.48.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconData$m = {
+const __iconData$n = {
   name: "hand",
   size: 24,
   node: [
@@ -7502,8 +7560,29 @@ const __iconData$m = {
     ]
   ]
 };
+__iconData$n.node;
+const Hand = createLucideIcon(__iconData$n);
+/**
+ * @license lucide-react v1.48.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconData$m = {
+  name: "heart",
+  size: 24,
+  node: [
+    [
+      "path",
+      {
+        d: "M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5",
+        key: "mvr1a0"
+      }
+    ]
+  ]
+};
 __iconData$m.node;
-const Hand = createLucideIcon(__iconData$m);
+const Heart = createLucideIcon(__iconData$m);
 /**
  * @license lucide-react v1.48.0 - ISC
  *
@@ -7901,7 +7980,7 @@ const __iconData = {
 __iconData.node;
 const ZoomOut = createLucideIcon(__iconData);
 const appIcon = "" + new URL("icon-CwQC474P.png", import.meta.url).href;
-const Header = ({ isStreaming = false }) => {
+const Header = ({ isStreaming = false, onOpenAbout }) => {
   const [isMaximized, setIsMaximized] = reactExports.useState(false);
   reactExports.useEffect(() => {
     window.electronAPI?.isWindowMaximized?.().then((max) => {
@@ -7958,6 +8037,16 @@ const Header = ({ isStreaming = false }) => {
                 ),
                 /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: isStreaming ? "Ativo" : "Pronto" })
               ]
+            }
+          ) }),
+          onOpenAbout && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "app-no-drag", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "button",
+            {
+              type: "button",
+              onClick: onOpenAbout,
+              className: "w-7 h-7 rounded-md flex items-center justify-center text-slate-400 hover:text-indigo-300 hover:bg-slate-800/80 active:scale-90 transition-all duration-150",
+              title: "Sobre o Desenvolvedor & Repositório GitHub",
+              children: /* @__PURE__ */ jsxRuntimeExports.jsx(CircleQuestionMark, { className: "w-3.5 h-3.5" })
             }
           ) }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-px h-3.5 bg-slate-800 shrink-0 mx-0.5" }),
@@ -8800,6 +8889,244 @@ const LogViewerModal = ({ isOpen, onClose }) => {
     ] })
   ] }) });
 };
+const GITHUB_REPO_URL = "https://github.com/AlysonDEV/professor_screen_share";
+const GithubIcon = ({ className = "w-4 h-4" }) => /* @__PURE__ */ jsxRuntimeExports.jsx("svg", { className, viewBox: "0 0 24 24", fill: "currentColor", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+  "path",
+  {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+  }
+) });
+const AboutModal = ({ isOpen, onClose }) => {
+  const [copied, setCopied] = reactExports.useState(false);
+  if (!isOpen) return null;
+  const handleOpenGitHub = () => {
+    if (window.electronAPI?.openExternal) {
+      window.electronAPI.openExternal(GITHUB_REPO_URL);
+    } else {
+      window.open(GITHUB_REPO_URL, "_blank");
+    }
+  };
+  const handleCopyLink = async () => {
+    try {
+      await navigator.clipboard.writeText(GITHUB_REPO_URL);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2e3);
+    } catch {
+    }
+  };
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/75 backdrop-blur-sm animate-in fade-in duration-200", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative w-full max-w-md bg-[#0b0f19] border border-slate-800 rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[90vh]", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between px-4 py-3 border-b border-slate-800/80 bg-slate-900/60", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "w-2 h-2 rounded-full bg-indigo-500 animate-pulse" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-xs font-bold text-slate-100 uppercase tracking-wider", children: "Sobre o Software" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(
+        "button",
+        {
+          type: "button",
+          onClick: onClose,
+          className: "p-1 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-colors",
+          title: "Fechar (Esc)",
+          children: /* @__PURE__ */ jsxRuntimeExports.jsx(X, { className: "w-4 h-4" })
+        }
+      )
+    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "overflow-y-auto p-5 space-y-4", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative inline-block", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-20 h-20 mx-auto rounded-2xl overflow-hidden border-2 border-indigo-500/40 shadow-xl shadow-indigo-500/20 bg-slate-900 p-0.5", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "img",
+            {
+              src: appIcon,
+              alt: "Professor Screen Share",
+              className: "w-full h-full object-cover rounded-xl"
+            }
+          ) }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "absolute -bottom-1 -right-1 px-2 py-0.5 rounded-full text-[9px] font-bold bg-indigo-600 text-white border border-indigo-400/50 shadow", children: "v1.0.1" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-base font-bold text-slate-100", children: "Professor Screen Share" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-slate-400 max-w-xs mx-auto leading-relaxed mt-1", children: "Espelhamento de tela de alta fluidez, recorte Sniper e anotações interativas para aulas e apresentações." })
+        ] })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-3 rounded-xl bg-slate-900/80 border border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between text-xs", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "text-slate-400 font-medium flex items-center gap-1.5", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Award, { className: "w-3.5 h-3.5 text-amber-400" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Desenvolvedor Principal" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-semibold text-slate-200", children: "AlysonDEV" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between text-xs pt-1 border-t border-slate-800/80", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "text-slate-400 font-medium flex items-center gap-1.5", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(CodeXml, { className: "w-3.5 h-3.5 text-indigo-400" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Organização / Time" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-slate-300", children: "Aincrad Development" })
+        ] })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-3.5 rounded-xl bg-gradient-to-br from-indigo-950/40 to-slate-900 border border-indigo-900/50 space-y-2.5", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 text-xs font-semibold text-indigo-200", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(GithubIcon, { className: "w-4 h-4 text-white" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Repositório Oficial no GitHub" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-[10px] text-emerald-400 font-medium px-2 py-0.5 rounded-full bg-emerald-500/10 border border-emerald-500/30", children: "Código Aberto" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "p-2 rounded-lg bg-slate-950/80 border border-slate-800 text-[11px] font-mono text-slate-300 truncate select-all", children: GITHUB_REPO_URL }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-2 gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            "button",
+            {
+              type: "button",
+              onClick: handleOpenGitHub,
+              className: "flex items-center justify-center gap-1.5 py-1.5 px-3 rounded-lg text-xs font-semibold bg-indigo-600 hover:bg-indigo-500 text-white transition-all shadow-sm shadow-indigo-600/30 active:scale-95",
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { className: "w-3.5 h-3.5" }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Abrir no GitHub" })
+              ]
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            "button",
+            {
+              type: "button",
+              onClick: handleCopyLink,
+              className: `flex items-center justify-center gap-1.5 py-1.5 px-3 rounded-lg text-xs font-medium border transition-all active:scale-95 ${copied ? "bg-emerald-600/20 text-emerald-300 border-emerald-500/40" : "bg-slate-800 hover:bg-slate-700 text-slate-300 border-slate-700/80"}`,
+              children: [
+                copied ? /* @__PURE__ */ jsxRuntimeExports.jsx(Check, { className: "w-3.5 h-3.5 text-emerald-400" }) : /* @__PURE__ */ jsxRuntimeExports.jsx(Copy, { className: "w-3.5 h-3.5" }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: copied ? "Copiado!" : "Copiar Link" })
+              ]
+            }
+          )
+        ] })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-[10px] text-slate-400 text-center space-y-1", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "Construído com Electron, React, TypeScript, Vite e Tailwind CSS" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-slate-400 flex items-center justify-center gap-1", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Feito com dedicação para a educação" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Heart, { className: "w-2.5 h-2.5 text-rose-500 fill-rose-500 inline" })
+        ] })
+      ] })
+    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "px-4 py-2.5 bg-slate-900/80 border-t border-slate-800 flex justify-end", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "button",
+      {
+        type: "button",
+        onClick: onClose,
+        className: "px-4 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-200 transition-colors border border-slate-700",
+        children: "Fechar"
+      }
+    ) })
+  ] }) });
+};
+const LOADING_STEPS = [
+  "Inicializando módulos da aplicação...",
+  "Detectando monitores e fontes de vídeo...",
+  "Iniciando servidor local de transmissão...",
+  "Preparando ambiente de anotações...",
+  "Tudo pronto!"
+];
+const SplashScreen = ({ isReady, onFinish }) => {
+  const [stepIndex, setStepIndex] = reactExports.useState(0);
+  const [progress, setProgress] = reactExports.useState(15);
+  const [isVisible, setIsVisible] = reactExports.useState(true);
+  const [isFadingOut, setIsFadingOut] = reactExports.useState(false);
+  reactExports.useEffect(() => {
+    const stepInterval = setInterval(() => {
+      setStepIndex((prev) => {
+        if (prev < LOADING_STEPS.length - 2) {
+          return prev + 1;
+        }
+        return prev;
+      });
+    }, 400);
+    const progressInterval = setInterval(() => {
+      setProgress((prev) => {
+        if (prev < 85) {
+          return prev + Math.floor(Math.random() * 15 + 10);
+        }
+        return prev;
+      });
+    }, 300);
+    return () => {
+      clearInterval(stepInterval);
+      clearInterval(progressInterval);
+    };
+  }, []);
+  reactExports.useEffect(() => {
+    if (isReady) {
+      setStepIndex(LOADING_STEPS.length - 1);
+      setProgress(100);
+      const fadeTimer = setTimeout(() => {
+        setIsFadingOut(true);
+      }, 600);
+      const unmountTimer = setTimeout(() => {
+        setIsVisible(false);
+        onFinish?.();
+      }, 1200);
+      return () => {
+        clearTimeout(fadeTimer);
+        clearTimeout(unmountTimer);
+      };
+    }
+    return void 0;
+  }, [isReady, onFinish]);
+  if (!isVisible) return null;
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs(
+    "div",
+    {
+      className: `fixed inset-0 z-50 flex flex-col items-center justify-center bg-[#070b14] text-slate-100 select-none overflow-hidden transition-opacity duration-600 ease-out ${isFadingOut ? "opacity-0 pointer-events-none" : "opacity-100"}`,
+      children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute top-1/4 left-1/4 w-80 h-80 bg-indigo-600/15 rounded-full blur-3xl pointer-events-none animate-pulse" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute bottom-1/4 right-1/4 w-80 h-80 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative z-10 flex flex-col items-center max-w-sm px-6 text-center space-y-6", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-24 h-24 rounded-3xl overflow-hidden border-2 border-indigo-500/40 shadow-[0_0_40px_rgba(99,102,241,0.35)] p-0.5 bg-slate-900 animate-in zoom-in-75 duration-500", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "img",
+              {
+                src: appIcon,
+                alt: "Professor Screen Share",
+                className: "w-full h-full object-cover rounded-2xl"
+              }
+            ) }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "absolute -inset-1 rounded-3xl border border-indigo-400/20 animate-ping pointer-events-none" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-1.5", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-center gap-1.5", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-xl font-extrabold text-white tracking-tight", children: "Professor Screen Share" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx(Sparkles, { className: "w-4 h-4 text-indigo-400 shrink-0 animate-bounce" })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-slate-400 font-medium", children: "Espelhamento, Recorte e Anotações Interativas" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "w-56 space-y-2 pt-2", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-full h-1.5 bg-slate-800/80 rounded-full overflow-hidden border border-slate-700/50 p-0.5", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "div",
+              {
+                className: "h-full bg-gradient-to-r from-indigo-500 via-cyan-400 to-emerald-400 rounded-full transition-all duration-300 ease-out shadow-sm",
+                style: { width: `${progress}%` }
+              }
+            ) }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between text-[11px] text-slate-400 font-mono", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "truncate pr-2", children: LOADING_STEPS[stepIndex] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "text-indigo-300 font-semibold shrink-0", children: [
+                progress,
+                "%"
+              ] })
+            ] })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "pt-4 text-[10px] text-slate-500 font-medium flex items-center gap-2", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "v1.0.1" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "•" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Por AlysonDEV" })
+          ] })
+        ] })
+      ]
+    }
+  );
+};
 const ControlApp = () => {
   const [selectedSourceId, setSelectedSourceId] = reactExports.useState(null);
   const [activeCrop, setActiveCrop] = reactExports.useState(null);
@@ -8807,6 +9134,8 @@ const ControlApp = () => {
   const [currentColor, setCurrentColor] = reactExports.useState("#ef4444");
   const [strokeWidth, setStrokeWidth] = reactExports.useState(5);
   const [isLogModalOpen, setIsLogModalOpen] = reactExports.useState(false);
+  const [isAboutModalOpen, setIsAboutModalOpen] = reactExports.useState(false);
+  const [isAppReady, setIsAppReady] = reactExports.useState(false);
   reactExports.useEffect(() => {
     const handleGlobalError = (event) => {
       window.electronAPI?.log?.("ERROR", `Erro de interface: ${event.message}`, {
@@ -8831,7 +9160,11 @@ const ControlApp = () => {
     const unsubAutoSource = window.electronAPI?.onSourceAutoSelected?.((sourceId) => {
       setSelectedSourceId(sourceId);
     });
+    const readyTimer = setTimeout(() => {
+      setIsAppReady(true);
+    }, 1300);
     return () => {
+      clearTimeout(readyTimer);
       window.removeEventListener("error", handleGlobalError);
       window.removeEventListener("unhandledrejection", handleRejection);
       unsubCrop?.();
@@ -8876,7 +9209,13 @@ const ControlApp = () => {
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute -top-20 -left-20 w-64 h-64 bg-indigo-600/10 rounded-full blur-3xl pointer-events-none" }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute top-1/2 -right-24 w-60 h-60 bg-cyan-600/10 rounded-full blur-3xl pointer-events-none" }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute -bottom-20 left-1/3 w-64 h-64 bg-emerald-600/10 rounded-full blur-3xl pointer-events-none" }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(Header, { isStreaming: Boolean(selectedSourceId) }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      Header,
+      {
+        isStreaming: Boolean(selectedSourceId),
+        onOpenAbout: () => setIsAboutModalOpen(true)
+      }
+    ),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("main", { className: "relative z-10 flex-1 overflow-y-auto p-3 space-y-2.5", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx(
         SourcePicker,
@@ -8910,19 +9249,34 @@ const ControlApp = () => {
       )
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("footer", { className: "relative z-10 px-3 py-2 bg-[#0b0f19]/90 backdrop-blur-sm border-t border-slate-800/80 text-[10px] text-slate-400 flex items-center justify-between", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs(
-        "button",
-        {
-          type: "button",
-          onClick: () => setIsLogModalOpen(true),
-          className: "flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-slate-800/80 hover:bg-slate-700/80 text-slate-300 hover:text-white transition-all border border-slate-700/60 active:scale-95 shadow-sm",
-          title: "Ver histórico de logs e erros (logs/app.log)",
-          children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(FileText, { className: "w-3 h-3 text-indigo-400" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Ver Logs" })
-          ]
-        }
-      ),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-1.5", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          "button",
+          {
+            type: "button",
+            onClick: () => setIsLogModalOpen(true),
+            className: "flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-slate-800/80 hover:bg-slate-700/80 text-slate-300 hover:text-white transition-all border border-slate-700/60 active:scale-95 shadow-sm",
+            title: "Ver histórico de logs e erros (logs/app.log)",
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(FileText, { className: "w-3 h-3 text-indigo-400" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Logs" })
+            ]
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          "button",
+          {
+            type: "button",
+            onClick: () => setIsAboutModalOpen(true),
+            className: "flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-slate-800/80 hover:bg-slate-700/80 text-slate-300 hover:text-white transition-all border border-slate-700/60 active:scale-95 shadow-sm",
+            title: "Sobre o Desenvolvedor e Repositório GitHub",
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(Info, { className: "w-3 h-3 text-indigo-400" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Sobre" })
+            ]
+          }
+        )
+      ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3 text-slate-500 font-mono text-[10px]", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "F11: Tela Cheia" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "•" }),
@@ -8935,7 +9289,15 @@ const ControlApp = () => {
         isOpen: isLogModalOpen,
         onClose: () => setIsLogModalOpen(false)
       }
-    )
+    ),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      AboutModal,
+      {
+        isOpen: isAboutModalOpen,
+        onClose: () => setIsAboutModalOpen(false)
+      }
+    ),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(SplashScreen, { isReady: isAppReady })
   ] });
 };
 const SniperApp = () => {

@@ -46,4 +46,13 @@ describe('Header component', () => {
     fireEvent.click(closeBtn)
     expect(closeMock).toHaveBeenCalledTimes(1)
   })
+
+  it('triggers onOpenAbout when about button is clicked', () => {
+    const onOpenAboutMock = vi.fn()
+    render(<Header isStreaming={false} onOpenAbout={onOpenAboutMock} />)
+
+    const aboutBtn = screen.getByTitle('Sobre o Desenvolvedor & Repositório GitHub')
+    fireEvent.click(aboutBtn)
+    expect(onOpenAboutMock).toHaveBeenCalledTimes(1)
+  })
 })

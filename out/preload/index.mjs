@@ -42,7 +42,9 @@ const IPC_CHANNELS = {
   WINDOW_MAXIMIZE: "window-maximize",
   WINDOW_CLOSE: "window-close",
   WINDOW_IS_MAXIMIZED: "window-is-maximized",
-  WINDOW_MAXIMIZED_STATE: "window-maximized-state"
+  WINDOW_MAXIMIZED_STATE: "window-maximized-state",
+  // System & External Links
+  OPEN_EXTERNAL: "open-external"
 };
 const api = {
   // Sources & Displays
@@ -86,6 +88,8 @@ const api = {
       ipcRenderer.removeListener(IPC_CHANNELS.WINDOW_MAXIMIZED_STATE, subscription);
     };
   },
+  // External Links
+  openExternal: (url) => ipcRenderer.send(IPC_CHANNELS.OPEN_EXTERNAL, url),
   // Listeners
   onSetSource: (callback) => {
     const subscription = (_event, sourceId) => callback(sourceId);

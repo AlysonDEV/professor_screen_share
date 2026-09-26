@@ -65,6 +65,9 @@ const api = {
     }
   },
 
+  // External Links
+  openExternal: (url: string): void => ipcRenderer.send(IPC_CHANNELS.OPEN_EXTERNAL, url),
+
   // Listeners
   onSetSource: (callback: (sourceId: string) => void): (() => void) => {
     const subscription = (_event: Electron.IpcRendererEvent, sourceId: string): void => callback(sourceId)

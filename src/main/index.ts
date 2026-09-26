@@ -312,6 +312,13 @@ function setupIPC(): void {
     const win = BrowserWindow.fromWebContents(event.sender)
     return win?.isMaximized() ?? false
   })
+
+  // 10. External URL opener
+  ipcMain.on(IPC_CHANNELS.OPEN_EXTERNAL, (_event, url: string) => {
+    if (typeof url === 'string' && (url.startsWith('https://') || url.startsWith('http://'))) {
+      shell.openExternal(url)
+    }
+  })
 }
 
 // Ensure single instance lock in production or dev
