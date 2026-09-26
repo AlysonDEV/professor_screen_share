@@ -162,6 +162,10 @@ function getPreloadPath() {
 }
 function getAppIcon() {
   const candidates = [
+    join(__dirname, "../../build/icon.ico"),
+    join(__dirname, "../../resources/icon.ico"),
+    join(process.cwd(), "build/icon.ico"),
+    join(process.cwd(), "resources/icon.ico"),
     join(__dirname, "../../resources/icon.png"),
     join(process.cwd(), "resources/icon.png"),
     join(__dirname, "../resources/icon.png"),
